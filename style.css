@@ -1,0 +1,35 @@
+h1{
+    background-color: #00FFFF;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+}
+
+.places{
+    background-color: #FFFF00;
+    
+    padding:20px
+}
+
+.item{  
+    position:relative
+    
+}
+
+
+
+.item p{
+    position: absolute;
+    top:30%;
+    left:12%;
+    transform:translate(-50%,-50%);
+    opacity:0
+}
+
+
+.item:hover p{
+    opacity:1
+}
+
+.item:hover img{
+    opacity:0.1
+}
